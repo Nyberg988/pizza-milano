@@ -57,12 +57,12 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 
 .text-black {
-    color: rgb(250, 6, 6) !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .border-black {
@@ -75,7 +75,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: rgb(247, 0, 0);
+	background: rgb(252, 0, 0);
 	z-index: -1;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 input[name='q']::placeholder {
-    color: #ff0000;
+    color: #000000;
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -132,7 +132,7 @@ input[name='q']::placeholder {
 }
 
 .arrow-danger {
-    border-bottom-color: #dc3545 !important;
+    border-bottom-color: #000000 !important;
 }
 
 .arrow-warning {
@@ -170,7 +170,7 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    color: #000000; /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -217,7 +217,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #000000; /* text-info */
 }
 
 /* Product Form */
@@ -239,12 +239,12 @@ input[name='q']::placeholder {
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
-    border-color: #dc3545;
+    border-color: #000000;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #000000;
+    border-color: #000000;
     border-radius: 0;
 }
 
