@@ -34,7 +34,7 @@ body {
 }
 
 .btn-black {
-    background: rgb(235, 0, 0);
+    background: rgb(0, 0, 0);
     color: white;
 }
 
@@ -57,16 +57,16 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: rgb(190, 3, 3);
+    background: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
 }
 
 .text-black {
-    color: rgb(223, 4, 4) !important;
+    color: rgb(250, 6, 6) !important;
 }
 
 .border-black {
-    border: 1px solid rgb(185, 0, 0) !important;
+    border: 1px solid rgb(255, 0, 0) !important;
 }
 
 .overlay {
@@ -75,7 +75,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: rgb(160, 7, 7);
+	background: rgb(247, 0, 0);
 	z-index: -1;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 input[name='q']::placeholder {
-    color: #030303;
+    color: #ff0000;
 }
 
 /* ------------------------------- bootstrap toasts */
