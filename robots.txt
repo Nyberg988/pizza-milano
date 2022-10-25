@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://nyberg988-pizza-milano.herokuapp.com/sitemap.xml
